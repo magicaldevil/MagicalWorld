@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   distribution.plist
+   BiBaoTong
+
+   Created by MagicalTYZH on 2018/11/12.
+   Copyright (c) 2018年 BiBaoTong. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>items</key>
+        <array>
+            <dict>
+                <key>assets</key>
+                <array>
+                    <dict>
+                        <key>kind</key>
+                        <string>software-package</string>
+                        <key>url</key>
+                        <string>https://www.cointrea.com/download/yxn/yxn.ipa</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>full-size-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+<!--                        57*57的图片-->
+                        <string>https://www.cointrea.com/download/yxn/57.png</string>
+                    </dict>
+                    <dict>
+                        <key>kind</key>
+                        <string>display-image</string>
+                        <key>needs-shine</key>
+                        <true/>
+                        <key>url</key>
+<!--                        512*512的图片-->
+                        <string>https://www.cointrea.com/download/yxn/512.png</string>
+                    </dict>
+                </array>
+
+                <key>metadata</key>
+                <dict>
+                    <key>bundle-identifier</key>
+                    <string>bundleID</string>
+                    <key>bundle-version</key>
+<!--                    版本号-->
+                    <string>1.0</string>
+                    <key>kind</key>
+                    <string>software</string>
+                    <key>subtitle</key>
+                    <string>App</string>
+                    <key>title</key>
+<!--                    app的名称-->
+                    <string>悠闲牛</string>
+                </dict>
+            </dict>
+        </array>
+    </dict>
+</plist>
